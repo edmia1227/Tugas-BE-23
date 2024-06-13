@@ -24,6 +24,9 @@ func main() {
 	tu := model.NewTodoModel(connection)
 	tc := controller.NewTodoController(tu)
 
+	// am := model.NewActivityModel(connection)
+	// ac := controller.NewActivityController(am)
+
 	for inputMenu != 9 {
 		fmt.Println("Pilih menu")
 		fmt.Println("1. Login")
